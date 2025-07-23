@@ -15,6 +15,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
+  padding-bottom: 100px;
 }
 nav ul {
   display: flex;
@@ -30,4 +31,40 @@ a {
 nav h4 {
   font-size: 1.5rem;
   font-weight: 700;
+}
+/* banner */
+.banner {
+  display: flex;
+  align-items: center;
+}
+.banner-left {
+  text-align: left;
+  width: 100%;
+}
+.banner-right {
+  position: relative;
+  width: 100%;
+}
+.camera {
+  position: absolute;
+  z-index: 1;
+}
+.banner-left h3 {
+  font-size: 3.25rem;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.banner-left p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3a3a3a;
+  margin: 10px;
+}
+.banner-left button {
+  background: #e02c6d;
+  border-radius: 41px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  padding: 10px 24px;
 }
