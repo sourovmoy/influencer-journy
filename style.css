@@ -124,7 +124,9 @@ nav h4 {
 }
 .collection a {
   color: #e02c6d;
+  font-weight: 700;
 }
+
 /* -----Product together--- */
 .product-together {
   display: flex;
