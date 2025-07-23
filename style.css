@@ -47,6 +47,7 @@ nav h4 {
 .banner-right {
   position: relative;
   width: 100%;
+  padding-left: 250px;
 }
 .camera {
   position: absolute;
@@ -161,4 +162,20 @@ nav h4 {
   font-weight: 700;
   border: none;
   padding: 10px 24px;
+}
+/* ---footer--- */
+footer {
+  background: black;
+  align-items: center;
+  color: #ffffff;
+  margin: 20px auto;
+  text-align: center;
+}
+footer h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 10px auto;
+}
+.icon {
+  color: #ffffff;
 }
